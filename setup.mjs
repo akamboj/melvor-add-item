@@ -19,14 +19,13 @@ export async function setup(ctx) {
     type: 'text',
     name: 'item-id',
     label: 'Item ID',
-    hint: 'Determines if you are awesome or not.'
+    hint: 'Item IDs are on the Wiki.'
   });
 
   generalSettings.add({
     type: 'number',
     name: 'item-quantity',
     label: 'Item Quantity',
-    hint: 'Determines if you are awesome or not.',
     default: 1,
     min: 0
   });
