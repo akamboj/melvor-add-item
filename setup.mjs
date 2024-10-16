@@ -44,7 +44,7 @@ export async function setup(ctx) {
     type: 'text',
     name: 'item-id',
     label: 'Item ID',
-    hint: 'Item IDs are on the Wiki. For exmaple, Normal Logs are \"melvorD:Normal_Logs\"'
+    hint: 'Item IDs are on the Wiki, and are CASE SENSITIVE. For exmaple, Normal Logs are \"melvorD:Normal_Logs\"'
   });
 
   generalSettings.add({
